@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    font-size: 20px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: brown;
+    color: white;
+}
+
+.logo {
+    font-size: 20px;
+    margin: 15px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+li {
+    margin-right: 30px;
+    font-size: 22px;
+}
+
+footer {
+    background-color: #717171;
+    color: white;
+    font-size: 14px;
+    padding: 45px;
+}
+
+main {
+    background-image: url(images/photography-camera-learning-feature.webp);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 250px;
+}
+
+h2 {
+    color: rgb(116, 94, 94);
+    font-weight: 700;
+    font-size: 45px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+
+button{
+    background-color: rgb(116, 94, 94);
+    color: wheat;
+    border: 3px white solid;
+    border-radius: 10px;
+    width: 170px;
+    height: 50px;
+}
